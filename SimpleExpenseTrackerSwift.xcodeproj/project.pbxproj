@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D8CC2BCF2F6C4C72004AA47E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BC92F6C4C72004AA47E /* ContentView.swift */; };
+		D8CC2BD02F6C4C72004AA47E /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BCA2F6C4C72004AA47E /* CurrencyFormatter.swift */; };
+		D8CC2BD12F6C4C72004AA47E /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BCB2F6C4C72004AA47E /* Expense.swift */; };
+		D8CC2BD22F6C4C72004AA47E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BCC2F6C4C72004AA47E /* Item.swift */; };
+		D8CC2BD32F6C4C72004AA47E /* SimpleExpenseTrackerSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BCD2F6C4C72004AA47E /* SimpleExpenseTrackerSwiftApp.swift */; };
+		D8CC2BD42F6C4C72004AA47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CC2BC82F6C4C72004AA47E /* Assets.xcassets */; };
+		D8CC2BD72F6C4C75004AA47E /* SimpleExpenseTrackerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BD52F6C4C75004AA47E /* SimpleExpenseTrackerSwiftTests.swift */; };
+		D8CC2BDB2F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BD82F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITests.swift */; };
+		D8CC2BDC2F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BD92F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D8CC2B8C2F6C4AD2004AA47E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +39,16 @@
 		D8CC2B7C2F6C4AD0004AA47E /* SimpleExpenseTrackerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleExpenseTrackerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC2B8B2F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleExpenseTrackerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC2B952F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleExpenseTrackerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CC2BC82F6C4C72004AA47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8CC2BC92F6C4C72004AA47E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8CC2BCA2F6C4C72004AA47E /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		D8CC2BCB2F6C4C72004AA47E /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		D8CC2BCC2F6C4C72004AA47E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D8CC2BCD2F6C4C72004AA47E /* SimpleExpenseTrackerSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExpenseTrackerSwiftApp.swift; sourceTree = "<group>"; };
+		D8CC2BD52F6C4C75004AA47E /* SimpleExpenseTrackerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExpenseTrackerSwiftTests.swift; sourceTree = "<group>"; };
+		D8CC2BD82F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExpenseTrackerSwiftUITests.swift; sourceTree = "<group>"; };
+		D8CC2BD92F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExpenseTrackerSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D8CC2B7E2F6C4AD0004AA47E /* SimpleExpenseTrackerSwift */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleExpenseTrackerSwift;
-			sourceTree = "<group>";
-		};
-		D8CC2B8E2F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleExpenseTrackerSwiftTests;
-			sourceTree = "<group>";
-		};
-		D8CC2B982F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleExpenseTrackerSwiftUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D8CC2B792F6C4AD0004AA47E /* Frameworks */ = {
@@ -75,9 +78,9 @@
 		D8CC2B732F6C4AD0004AA47E = {
 			isa = PBXGroup;
 			children = (
-				D8CC2B7E2F6C4AD0004AA47E /* SimpleExpenseTrackerSwift */,
-				D8CC2B8E2F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftTests */,
-				D8CC2B982F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftUITests */,
+				D8CC2BCE2F6C4C72004AA47E /* SimpleExpenseTrackerSwift */,
+				D8CC2BD62F6C4C75004AA47E /* SimpleExpenseTrackerSwiftTests */,
+				D8CC2BDA2F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITests */,
 				D8CC2B7D2F6C4AD0004AA47E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +93,36 @@
 				D8CC2B952F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D8CC2BCE2F6C4C72004AA47E /* SimpleExpenseTrackerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D8CC2BC82F6C4C72004AA47E /* Assets.xcassets */,
+				D8CC2BC92F6C4C72004AA47E /* ContentView.swift */,
+				D8CC2BCA2F6C4C72004AA47E /* CurrencyFormatter.swift */,
+				D8CC2BCB2F6C4C72004AA47E /* Expense.swift */,
+				D8CC2BCC2F6C4C72004AA47E /* Item.swift */,
+				D8CC2BCD2F6C4C72004AA47E /* SimpleExpenseTrackerSwiftApp.swift */,
+			);
+			path = SimpleExpenseTrackerSwift;
+			sourceTree = "<group>";
+		};
+		D8CC2BD62F6C4C75004AA47E /* SimpleExpenseTrackerSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8CC2BD52F6C4C75004AA47E /* SimpleExpenseTrackerSwiftTests.swift */,
+			);
+			path = SimpleExpenseTrackerSwiftTests;
+			sourceTree = "<group>";
+		};
+		D8CC2BDA2F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8CC2BD82F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITests.swift */,
+				D8CC2BD92F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITestsLaunchTests.swift */,
+			);
+			path = SimpleExpenseTrackerSwiftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +139,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D8CC2B7E2F6C4AD0004AA47E /* SimpleExpenseTrackerSwift */,
 			);
 			name = SimpleExpenseTrackerSwift;
 			packageProductDependencies = (
@@ -130,9 +160,6 @@
 			dependencies = (
 				D8CC2B8D2F6C4AD2004AA47E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D8CC2B8E2F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftTests */,
-			);
 			name = SimpleExpenseTrackerSwiftTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +179,6 @@
 			);
 			dependencies = (
 				D8CC2B972F6C4AD2004AA47E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D8CC2B982F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftUITests */,
 			);
 			name = SimpleExpenseTrackerSwiftUITests;
 			packageProductDependencies = (
@@ -212,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CC2BD42F6C4C72004AA47E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CC2BCF2F6C4C72004AA47E /* ContentView.swift in Sources */,
+				D8CC2BD02F6C4C72004AA47E /* CurrencyFormatter.swift in Sources */,
+				D8CC2BD12F6C4C72004AA47E /* Expense.swift in Sources */,
+				D8CC2BD22F6C4C72004AA47E /* Item.swift in Sources */,
+				D8CC2BD32F6C4C72004AA47E /* SimpleExpenseTrackerSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CC2BD72F6C4C75004AA47E /* SimpleExpenseTrackerSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CC2BDB2F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITests.swift in Sources */,
+				D8CC2BDC2F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
