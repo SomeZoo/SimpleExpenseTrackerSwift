@@ -103,7 +103,7 @@ struct HomeView: View {
     }
     
     private var expensesList: some View {
-        List {
+        VStack(spacing: 0) {
             ForEach(recentExpenses) { expense in
                 ExpenseRowView(expense: expense)
                     .contentShape(Rectangle())
@@ -126,11 +126,9 @@ struct HomeView: View {
                     }
             }
         }
-        .listStyle(.plain)
         .background(Color(.systemBackground))
         .cornerRadius(12)
         .padding(.horizontal)
-        .frame(height: CGFloat(recentExpenses.count) * 60)
     }
     
     private func deleteExpense(_ expense: Expense) {
