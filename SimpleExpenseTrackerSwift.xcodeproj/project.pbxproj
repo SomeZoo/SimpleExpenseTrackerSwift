@@ -17,6 +17,8 @@
 		D8CC2BDC2F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BD92F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITestsLaunchTests.swift */; };
 		D8CC2BE02F6C4D00004AA47E /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BDE2F6C4D00004AA47E /* AddExpenseView.swift */; };
 		D8CC2BE12F6C4D00004AA47E /* ExpenseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BDF2F6C4D00004AA47E /* ExpenseDetailView.swift */; };
+		D8CC2BE22F6C4D10004AA47E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BE32F6C4D10004AA47E /* HomeView.swift */; };
+		D8CC2BE42F6C4D10004AA47E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BE52F6C4D10004AA47E /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		D8CC2BD92F6C4C78004AA47E /* SimpleExpenseTrackerSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExpenseTrackerSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D8CC2BDE2F6C4D00004AA47E /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		D8CC2BDF2F6C4D00004AA47E /* ExpenseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailView.swift; sourceTree = "<group>"; };
+		D8CC2BE32F6C4D10004AA47E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D8CC2BE52F6C4D10004AA47E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				D8CC2BCD2F6C4C72004AA47E /* SimpleExpenseTrackerSwiftApp.swift */,
 				D8CC2BDE2F6C4D00004AA47E /* AddExpenseView.swift */,
 				D8CC2BDF2F6C4D00004AA47E /* ExpenseDetailView.swift */,
+				D8CC2BE32F6C4D10004AA47E /* HomeView.swift */,
+				D8CC2BE52F6C4D10004AA47E /* ProfileView.swift */,
 			);
 			path = SimpleExpenseTrackerSwift;
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 				D8CC2BD32F6C4C72004AA47E /* SimpleExpenseTrackerSwiftApp.swift in Sources */,
 				D8CC2BE02F6C4D00004AA47E /* AddExpenseView.swift in Sources */,
 				D8CC2BE12F6C4D00004AA47E /* ExpenseDetailView.swift in Sources */,
+				D8CC2BE22F6C4D10004AA47E /* HomeView.swift in Sources */,
+				D8CC2BE42F6C4D10004AA47E /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
