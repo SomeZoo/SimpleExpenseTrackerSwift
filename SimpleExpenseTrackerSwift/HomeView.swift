@@ -41,13 +41,36 @@ struct HomeView: View {
     
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(spacing: 20) {
+            List {
+                Section {
                     summaryCard
-                    expensesList
+                        .listRowBackground(Color.clear)
+                        .listRowInsets(EdgeInsets())
                 }
-                .padding(.vertical)
+                
+                ForEach(recentExpenses) { expense in
+                    ExpenseRowView(expense: expense)
+                        .contentShape(Rectangle())
+                        .onTapGesture {
+                            selectedExpense = expense
+                        }
+                        .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                            Button(role: .destructive) {
+                                deleteExpense(expense)
+                            } label: {
+                                Label("删除", systemImage: "trash")
+                            }
+                            
+                            Button {
+                                expenseToEdit = expense
+                            } label: {
+                                Label("编辑", systemImage: "pencil")
+                            }
+                            .tint(.blue)
+                        }
+                }
             }
+            .listStyle(.plain)
             .background(Color(.systemGroupedBackground))
             .navigationTitle("记账本")
             .toolbar {
@@ -57,13 +80,18 @@ struct HomeView: View {
                     }
                 }
             }
-            .sheet(isPresented: $showingAddExpense) {
+            .navigationDestination(isPresented: Binding(
+                get: { selectedExpense != nil },
+                set: { if !$0 { selectedExpense = nil } }
+            )) {
+                if let expense = selectedExpense {
+                    ExpenseDetailView(expense: expense)
+                }
+            }
+            .navigationDestination(isPresented: $showingAddExpense) {
                 AddExpenseView()
             }
-            .sheet(item: $selectedExpense) { expense in
-                ExpenseDetailView(expense: expense)
-            }
-            .sheet(item: $expenseToEdit) { expense in
+            .navigationDestination(item: $expenseToEdit) { expense in
                 AddExpenseView(expense: expense)
             }
         }
@@ -98,35 +126,6 @@ struct HomeView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
         .background(Color.blue)
-        .cornerRadius(12)
-        .padding(.horizontal)
-    }
-    
-    private var expensesList: some View {
-        VStack(spacing: 0) {
-            ForEach(recentExpenses) { expense in
-                ExpenseRowView(expense: expense)
-                    .contentShape(Rectangle())
-                    .onTapGesture {
-                        selectedExpense = expense
-                    }
-                    .swipeActions(edge: .trailing, allowsFullSwipe: false) {
-                        Button(role: .destructive) {
-                            deleteExpense(expense)
-                        } label: {
-                            Label("删除", systemImage: "trash")
-                        }
-                        
-                        Button {
-                            expenseToEdit = expense
-                        } label: {
-                            Label("编辑", systemImage: "pencil")
-                        }
-                        .tint(.blue)
-                    }
-            }
-        }
-        .background(Color(.systemBackground))
         .cornerRadius(12)
         .padding(.horizontal)
     }
