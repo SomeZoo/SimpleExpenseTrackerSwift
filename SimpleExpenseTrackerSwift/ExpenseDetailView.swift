@@ -10,7 +10,7 @@ struct ExpenseDetailView: View {
     let expense: Expense
     @Environment(\.dismiss) private var dismiss
     @State private var showSharePreview = false
-    @State private var shareImage: UIImage?
+    @State private var generatedImage: UIImage?
     @State private var showAlert = false
     @State private var alertTitle = ""
     @State private var alertMessage = ""
