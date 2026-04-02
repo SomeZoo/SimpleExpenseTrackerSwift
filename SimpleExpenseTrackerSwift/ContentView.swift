@@ -21,6 +21,7 @@ struct ContentView: View {
                     Text("我的")
                 }
         }
+        .tint(.red)
     }
 }
 
