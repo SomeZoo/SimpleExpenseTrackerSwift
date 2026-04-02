@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D8A1B0632F7EC690006B8525 /* SharePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1B0622F7EC690006B8525 /* SharePreviewView.swift */; };
 		D8A1B0642F7EC690006B8525 /* ShareCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1B0612F7EC690006B8525 /* ShareCard.swift */; };
-		D8A1B0662F7ECA72006B8525 /* SharePreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1B0652F7ECA72006B8525 /* SharePreviewContainer.swift */; };
 		D8CC2BCF2F6C4C72004AA47E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BC92F6C4C72004AA47E /* ContentView.swift */; };
 		D8CC2BD02F6C4C72004AA47E /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BCA2F6C4C72004AA47E /* CurrencyFormatter.swift */; };
 		D8CC2BD12F6C4C72004AA47E /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC2BCB2F6C4C72004AA47E /* Expense.swift */; };
@@ -44,7 +43,6 @@
 /* Begin PBXFileReference section */
 		D8A1B0612F7EC690006B8525 /* ShareCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCard.swift; sourceTree = "<group>"; };
 		D8A1B0622F7EC690006B8525 /* SharePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePreviewView.swift; sourceTree = "<group>"; };
-		D8A1B0652F7ECA72006B8525 /* SharePreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePreviewContainer.swift; sourceTree = "<group>"; };
 		D8CC2B7C2F6C4AD0004AA47E /* SimpleExpenseTrackerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleExpenseTrackerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC2B8B2F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleExpenseTrackerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CC2B952F6C4AD2004AA47E /* SimpleExpenseTrackerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleExpenseTrackerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,7 +119,6 @@
 				D8CC2BE52F6C4D10004AA47E /* ProfileView.swift */,
 				D8A1B0612F7EC690006B8525 /* ShareCard.swift */,
 				D8A1B0622F7EC690006B8525 /* SharePreviewView.swift */,
-				D8A1B0652F7ECA72006B8525 /* SharePreviewContainer.swift */,
 			);
 			path = SimpleExpenseTrackerSwift;
 			sourceTree = "<group>";
@@ -282,7 +279,6 @@
 				D8A1B0632F7EC690006B8525 /* SharePreviewView.swift in Sources */,
 				D8A1B0642F7EC690006B8525 /* ShareCard.swift in Sources */,
 				D8CC2BCF2F6C4C72004AA47E /* ContentView.swift in Sources */,
-				D8A1B0662F7ECA72006B8525 /* SharePreviewContainer.swift in Sources */,
 				D8CC2BD02F6C4C72004AA47E /* CurrencyFormatter.swift in Sources */,
 				D8CC2BD12F6C4C72004AA47E /* Expense.swift in Sources */,
 				D8CC2BD32F6C4C72004AA47E /* SimpleExpenseTrackerSwiftApp.swift in Sources */,
